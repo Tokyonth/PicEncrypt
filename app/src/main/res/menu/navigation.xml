@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation_picture_processing"
+        android:icon="@drawable/ic_picture_processing"
+        android:title="@string/picture_processing"/>
+
+    <item
+        android:id="@+id/navigation_file_transmission"
+        android:icon="@drawable/ic_file_transmission"
+        android:title="@string/file_transmission"/>
+
+    <item
+        android:id="@+id/navigation_global_configuration"
+        android:icon="@drawable/ic_global_conf"
+        android:title="@string/global_configuration"/>
+
+</menu>

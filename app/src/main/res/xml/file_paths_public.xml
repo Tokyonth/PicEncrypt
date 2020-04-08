@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<paths xmlns:android="http://schemas.android.com/apk/res/android">
+    <root-path name="camera_photos" path="" />
+    <external-path name="tools_app" path="Tools"/>
+    <external-path name="external_files" path="."/>
+    <!--填写自己的包名-->
+    <external-path path="Android/data/com.tokyonth.tools/" name="share_files_path" />
+    <external-path path="." name="root_path" />
+</paths>

@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Logistic图像加密</string>
+    <string name="action_settings">设置</string>
+    <string name="encryption_and_decryption">加/解密</string>
+    <string name="file_transmission">文件传输</string>
+    <string name="picture_processing">图片处理</string>
+    <string name="camera_taking">相机拍照</string>
+    <string name="global_configuration">全局配置</string>
+    <string name="action_warning">提示</string>
+    <string name="warning_msg">本APP为图像加密软件</string>
+</resources>

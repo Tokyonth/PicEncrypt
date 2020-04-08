@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:padding="30dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:gravity="center">
+
+    <TextView
+        android:padding="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="选择发送方式"
+        android:textStyle="bold"
+        android:textColor="@color/colorAccent"
+        android:gravity="center"/>
+
+    <LinearLayout
+        android:padding="26dp"
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <ImageButton
+            android:id="@+id/share_qq"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/btn_bg"
+            android:padding="8dp"
+            android:src="@drawable/ic_icon_qq"/>
+
+        <ImageButton
+            android:id="@+id/share_wechat"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/btn_bg"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:padding="8dp"
+            android:src="@drawable/ic_icon_wechat"/>
+
+        <ImageButton
+            android:id="@+id/share_bluetooth"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/btn_bg"
+            android:padding="8dp"
+            android:src="@drawable/ic_bluetooth"/>
+
+    </LinearLayout>
+
+    <TextView
+        android:padding="10dp"
+        android:layout_marginTop="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="点击空白处可关闭窗口"/>
+
+</LinearLayout>
